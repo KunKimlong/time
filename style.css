@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ropa Sans', sans-serif;
+}
+.container{
+    width: 100vw;
+}
+.container h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+}
+.block{
+    width: 50%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    width: 23%;
+    text-align: center;
+    color: white;
+}
+.time h2,.time h2,.time h2,.time h2{
+    padding: 10px 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.time #hour,.time #min,.time #sec,.time #period{
+    font-size: 60px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.time:nth-child(1){
+    background-color: deepskyblue;
+}
+.time:nth-child(2){
+    background-color:darkorchid;
+}
+.time:nth-child(3){
+    background-color: deeppink;
+}
+.time:nth-child(4){
+    background-color:springgreen;
+}
+
+.demo{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
